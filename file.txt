@@ -1,0 +1,5 @@
+Hello world! This is a test file.
+WORLD everyone, welcome to the Bash scripting tutorial.
+world again! Let's find and replace words.
+all mixed case should also be noticed.
+This file contains multiple WORLD, Hello, and world variations.
