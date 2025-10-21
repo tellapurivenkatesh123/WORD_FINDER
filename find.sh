@@ -22,6 +22,12 @@ if [[ ! -f "$file" ]];then
     exit 1
 fi
 
+time_stamp=$(date +%d%m%Y_%H%M%S)
+backup_file="${file}_backup_${timestamp}"
+cp "$file" "$backup_file"
+echo "🗂️ Backup created in same directory: $backup_file"
+
+
 declare -A variants
 variants['lower']=${word,,}
 variants['first']=${word^}
